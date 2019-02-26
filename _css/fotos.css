@@ -1,8 +1,8 @@
 @charset "UTF-8";
 
 ul#album-fotos {
-    width: 900px;
-    margin: 0 auto;
+    width: 65%;
+    margin: auto 50% auto 20%;
     padding: 30px;
     overflow: hidden;
     list-style: none;

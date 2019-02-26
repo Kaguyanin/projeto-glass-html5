@@ -12,9 +12,9 @@ body {
   }
 
 div#interface {
-    width: 1700px;
+    width: 80%;
     background-color: #ffffff;
-    margin: -20px auto 0px auto;
+    margin: auto;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
     padding: 10px;
 }
@@ -35,7 +35,7 @@ a:hover {
 
 header#cabecalho img#icone {
     position: absolute;
-    left: 1635px;
+    left: 81%;
     top: 60px;
     float: right;
 }
@@ -140,7 +140,7 @@ nav#menu a:hover {
 
 section#corpo {
     display: block;
-    width: 950px;
+    width: 60%;
     float: left;
     border-right: 1px solid black;
     padding-right: 45px;
@@ -224,7 +224,7 @@ table#tabelaspec caption span {
 
 aside#lateral {
     display: block;
-    width: 650px;
+    width: 32%;
     float: right;
     padding-right: 10px;
     padding-left: 10px;
@@ -253,4 +253,14 @@ footer#rodape {
 
 footer#rodape p {
     text-align: center;
+}
+
+video#filme1 {
+    position: relative;
+    left: 20%;
+}
+
+video#filme2 {
+    position: relative;
+    width: 100%;
 }
